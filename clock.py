@@ -33,7 +33,7 @@ class Clock():
         font = ImageFont.truetype(FredokaOne, 20)
         draw.text((22, 70), temp, self.RED, font=font)
         draw.text((92, 70), tempmin, self.RED, font=font)
-        draw.text((155, 70), tempmax, self.RED, font=font)
+        draw.text((160, 70), tempmax, self.RED, font=font)
 
         self.display_img(img)
 
